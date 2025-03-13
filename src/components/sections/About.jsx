@@ -2,9 +2,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
+    "JavaScript",
     "React",
     "Angular",
-    "Vue",
     "TypeScript",
     "TailwindCSS",
   ];
@@ -12,15 +12,16 @@ export const About = () => {
   const backendSkills = [
     "ASP.NET Core",
     "C#",
-    "Python",
     "REST API",
+    "SQL Server",
     "Microservices",
     "AWS",
-    "SQL Server",
     "ASP.NET MVC",
     "LINQ",
-    "GraphQL",
     "Entity Framework Core",
+    "Docker",
+    "PowerBI",
+    "GraphQL",
   ];
 
   return (
@@ -108,7 +109,7 @@ export const About = () => {
                     {" "}
                     Lead Analyst at CGI (2021 - Present){" "}
                   </h4>
-                  <p>
+                  <p className="text-sm">
                     Developed and maintained microservices for cloud-based
                     applications.
                   </p>
@@ -119,7 +120,7 @@ export const About = () => {
                     {" "}
                     Specialist Software Engineering at LTI (2020 - 2021){" "}
                   </h4>
-                  <p>
+                  <p className="text-sm">
                     Assisted in building front-end components and integration
                     REST APIs
                   </p>
@@ -129,7 +130,7 @@ export const About = () => {
                     {" "}
                     Software Engineer at TechRAQ Info Solutions (2017 - 2020){" "}
                   </h4>
-                  <p>
+                  <p className="text-sm">
                     Involved in building Backend applications for Marine.
                   </p>
                 </div>
